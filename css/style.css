@@ -1,0 +1,279 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/*header area*/
+.header{
+	background-color: #3B5998;
+	overflow: hidden;
+	padding: 8px 0;
+}
+.container{
+	width: 65%;
+	margin: auto;
+	line-height: 1.34;
+	max-width: 1270px;
+}
+
+.logo-area{
+	width: 30%;
+	float: left;
+	
+}
+.logo-area img{
+	width: 168px;
+	height: 34px;
+	margin-top: 17px;
+}
+
+.login-area{
+	float: right;
+}
+
+.login-area form{
+	float: right;
+
+}
+
+.login-area label{
+	display: block;
+	color: #fff;
+	font-size:12px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	
+}
+.login-area input{
+	display: block;
+	
+}
+
+.login-area .email , .login-area .password , .login-area .login{
+	float: left;
+	margin-left: 15px;
+} 
+.login-area input[type="text"],
+.login-area input[type="password"]{
+	font-size: 12px;
+	padding: 2px 5px;
+}
+.login-area .password a{
+	text-decoration: none;
+	color: #9cb4d8;
+	font-size: 12px;
+}
+.login-area .password a:hover{
+	text-decoration: underline;
+}
+.login-area input[type="submit"]{
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	color: #fff;
+	margin-top: 21px;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+.login-area input[type="submit"]:hover{
+	background-color: #3B5998;
+}
+
+/*section area*/
+
+.signup-area{
+	background: linear-gradient(#ffffff, #D4D9E9);
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.left-area{
+	width: 55%;
+	float: left;	
+}
+.left-area p{
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 40px;
+	width: 78%;
+}
+.left-area img{
+	width: 536px;
+	height: 194px;
+}
+.right-area h2{
+	font-size: 36px;
+	color: #333
+	font-weight: 600;
+	margin-top: 30px;
+}
+.right-area h4{
+	font-size: 19px;
+	font-weight: 600;
+	color: #1d2129;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.right-area{
+	width: 45%;
+	float: right;
+}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	padding: 8px 10px;
+	font-size: 18px;
+	margin: 5px 0px;
+}
+.full-name{
+	overflow: hidden;
+}
+
+.right-area .first-name{
+	width: 48%;
+	float: left;
+}
+.right-area .sur-name{
+	width: 48%;
+	float: right;
+}
+.birthday{
+	overflow: hidden;
+}
+.birthday h4{
+	color: #90949c;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.birth-date{
+	overflow: hidden;
+	float: left;
+}
+.birth-date select{
+	height: 30px;
+	padding: 5px;
+	font-size: 13px;
+	background-color: #fff;
+	color: #1c1e21;
+	border: 1px solid #ccd0d5;
+	float: left;
+
+}
+.birth-link img{
+	margin-left: 5px;	
+	cursor: pointer;
+}
+.gender h4{
+	color: #90949c;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.gender label{
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 20px 0 3px;
+}
+.text-box p{
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+	margin: 10px 0;
+}
+
+.text-box p a{
+	text-decoration: none;
+	color: #365899;
+}
+.text-box p a:hover{
+	text-decoration: underline;
+}
+.btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.btn input{
+	background: linear-gradient(#67ae55, #578843);
+	box-shadow:  inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	padding: 7px 20px;
+	min-width: 194px;
+	font-size: 19px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.btn input:hover{
+	background: linear-gradient(#578843, #67ae55);
+	cursor: pointer;
+}
+.business{
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.business a{
+	text-decoration: none;
+	color: #385898;
+}
+.business a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/*start footer */
+
+.footer-area{
+	margin: 50px 0;
+}
+.footer-area ul{
+	margin: 0;
+	padding: 0;
+}
+.footer-area ul li{
+	display: inline;
+}
+.footer-area ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #385898;
+}
+.footer-area hr{
+	border: 0;
+	border-bottom: 1px solid #d4d4d4;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.top ul li.active a{
+	color: #737373;
+}
+.bottom{
+	color: #737373;
+	font-size: 11px;
+	margin-top: 20px;
+}
+.footer-area .top ul li a{
+	margin-right: 10px;
+}
+.footer-area .top ul li:last-child a{
+	border: 1px solid #999;
+	padding: 0 6px;
+}
+.footer-area .middle ul li a{
+	margin-right: 22px;
+}
+.footer-area .middle{
+	width: 1100px;
+}
